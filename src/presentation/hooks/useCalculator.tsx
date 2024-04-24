@@ -124,7 +124,7 @@ export const useCalculator = () => {
         break;
 
       case Operator.subtract:
-        setNumber( `${ num2 + num1 }` );
+        setNumber( `${ num2 - num1 }` );
         break;
 
       case Operator.multiply:
